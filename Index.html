@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href="style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!--cabeçalho-->
+    <header>
+        <div class="logo">
+            <img src="./img/logo.png">   
+        </div> 
+    <nav> 
+        <ul class="men-lista">
+            <li><a href="https://wa.me/qr/YFCIVRAL6D6CG1">WhatsApp</a></li>
+            <li><a href="#padaria">padaria</a></li>
+            <li><a href="#Mercearia">Mercearia</a></li>
+            <li><a href="#bebidas">Bebidas</a></li>
+            <li><a href="#Localização">Localização</a></li>
+        </ul>
+        <div class="menu-openner"><span>0</span>🛒</div>
+        <div class="burg">
+            <i class='bx bx-menu' ></i>
+        <ul class="menu-lista">
+            <li><a href="https://wa.me/qr/YFCIVRAL6D6CG1">WhatsApp</a></li>
+            <li><a href="#padaria">padaria</a></li>
+            <li><a href="#Mercearia">Mercearia</a></li>
+            <li><a href="#bebidas">Bebidas</a></li>
+            <li><a href="#Localização">Localização</a></li>
+            </ul>
+        </div>
+         
+        
+             
+           
+       
+    
+        
+    </nav>
+
+    </header>
+
+        
+    <div class="slider">
+      
+
+        <div class="slides">
+            <!--radio-->
+            <input type="radio" nome="radio-btn" id="radio1">
+            <input type="radio" nome="radio-btn" id="radio2">
+            <input type="radio" nome="radio-btn" id="radio3">
+            <input type="radio" nome="radio-btn" id="radio4">
+
+           
+            <div class="slide first">
+             <img src="./img/paogeral.jpg">
+            </div>
+            <div class="slide">
+                <img src="./img/paogeral.jpg">
+               </div>
+               <div class="slide">
+                <img src="./img/paogeral.jpg">
+               </div>
+               <div class="slide">
+                <img src="./img/paogeral.jpg" >
+               </div>
+
+               <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+               </div>
+
+            
+               
+        </div>
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+    </div>
+
+
+
+
+<main>
+
+    <div id="padaria" class="titi">
+    <h2>PADARIA</h2>
+    </div>
+    <!-- conteudo principal -->
+  <!-- modelos de produto na lista e no carrinho -->
+  <div class="models">
+
+    <!--produto na lista -->
+    <div class="produto-item">
+        <a href="">
+            <div class="produto-item--img"><img src="" /></div>
+            <div class="produto-item--add">+</div>
+        </a>
+        <div class="produto-item--price">R$ --</div>
+        <div class="produto-item--name">--</div>
+    </div>
+
+    <!--produto no carrinho -->
+    <div class="cart--item">
+        
+        <img src="" />
+        <div class="cart--item-nome">-</div>
+        <div class="cart--item--qtarea">
+            <button class="cart--item-qtmenos">-</button>
+            <div class="cart--item--qt">1</div>
+            <button class="cart--item-qtmais">+</button>
+        </div>
+    </div>
+
+</div>
+<!-- /models -->
+
+<!-- .menu-openner aparecera no modo mobile -->
+
+<!-- /menu-openner -->
+
+<!-- conteudo principal -->
+
+
+
+    <div class="produto-area"></div>
+</main>
+<!-- /conteudo principal -->
+
+<!-- aside do carrinho -->
+<aside >
+    <div class="cart--area">
+        <div class="menu-closer">❌ </div>
+        <div class="cart"></div>
+    <div class="cart--details">
+            <div class="cart--totalitem subtotal">
+                <span>Subtotal</span>
+                <span>R$ --</span>
+            </div>
+            <div class="cart--totalitem desconto">
+                <span>Desconto</span>
+                <span>R$ --</span>
+            </div>
+            <div class="cart--totalitem total big">
+                <span>Total</span>
+                <span>R$ --</span>
+            </div>
+            <div class="cart--finalizar">Finalizar a compra</div>
+        </div>
+    </div>
+</aside>
+<!-- /aside do carrinho -->
+
+<!-- janela modal .produtoWindowArea -->
+<div class="produtoWindowArea">
+    <div class="produtoWindowBody">
+        <div class="produtoInfo--cancelMobileButton">Voltar</div>
+        <div class="produtoBig">
+            <img src="" />
+        </div>
+        <div class="produtoInfo">
+            <h1>--</h1>
+     
+            </div>
+            <div class="produtoInfo--pricearea">
+                <div class="produtoInfo--sector">Preço</div>
+                <div class="produtoInfo--price">
+                    <div class="produtoInfo--actualPrice">R$ --</div>
+                    <div class="produtoInfo--qtarea">
+                        <button class="produtoInfo--qtmenos">-</button>
+                        <div class="produtoInfo--qt">1</div>
+                        <button class="produtoInfo--qtmais">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="produtoInfo--addButton">Adicionar ao carrinho</div>
+            <div class="produtoInfo--cancelButton">Cancelar</div>
+        </div>
+    </div>
+</div> 
+<footer id="Localização">
+        <div class="titulo">
+            <h2>Mercearia e Bar <br> Ze do Ari </h2> 
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20430.98608333754!2d-43.2020187891162!3d-20.983465270982922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa3a99f45b56449%3A0x516d3519288be4ea!2sVin%C3%ADcius%20Motos!5e0!3m2!1spt-BR!2sbr!4v1688091195093!5m2!1spt-BR!2sbr"></iframe>
+        </div>
+        </div>
+</footer>
+    <script src="./js/jsjs.js"></script>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
